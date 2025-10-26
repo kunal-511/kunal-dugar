@@ -1,5 +1,5 @@
 import MagicBento from './MagicBento';
-import { useTheme } from "../../hooks/useTheme";
+import { useTheme } from "../hooks/useTheme";
 
 interface CardData {
   color?: string;

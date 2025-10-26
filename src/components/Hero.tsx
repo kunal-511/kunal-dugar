@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 import { useEffect, useState } from "react";
 import SplitText from "./SplitText";
 import GradientBlinds from "./GradientBlinds";
-import { useTheme } from "../../hooks/useTheme";
+import { useTheme } from "../hooks/useTheme";
 import { SiMedium as MediumIcon } from "react-icons/si";
 
 const TypeWriter = ({ text, delay = 50 }: { text: string; delay?: number }) => {
