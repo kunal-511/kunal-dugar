@@ -37,7 +37,7 @@ const Contact = () => {
         title: "Copied!",
         description: `${type === 'email' ? 'Email' : 'Phone number'} copied to clipboard`,
       });
-    } catch (err) {
+    } catch {
       toast({
         title: "Failed to copy",
         description: "Please try again",

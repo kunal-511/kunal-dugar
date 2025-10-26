@@ -383,13 +383,13 @@ const OpenSource = () => {
           if (allPRsResponse.ok) {
             const allPRsData = await allPRsResponse.json();
             const repos = new Set(
-              allPRsData.items.map((pr: any) => pr.repository_url)
+              allPRsData.items.map((pr: { repository_url: string }) => pr.repository_url)
             );
             reposContributed = repos.size;
 
             const orgs = new Set(
-              allPRsData.items.map((pr: any) => {
-                const match = pr.repository_url.match(/repos\/([^\/]+)\//);
+              allPRsData.items.map((pr: { repository_url: string }) => {
+                const match = pr.repository_url.match(/repos\/([^/]+)\//);
                 return match ? match[1] : null;
               }).filter(Boolean)
             );
