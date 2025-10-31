@@ -22,7 +22,7 @@ const projects: Project[] = [
     title: "BeatWave",
     description: "Full-stack music streaming platform with real-time chat",
     longDescription: "Developed full-stack music streaming web application with seamless playback experience and user-friendly interface. Integrated real-time chat functionality using WebSockets enabling social interaction between users during music sessions. Deployed using Docker containerization and Kubernetes orchestration ensuring scalability and reliability.",
-    tech: ["Express.js", "TypeScript", "React.js", "WebSocket", "Docker", "Kubernetes", "Helm", "Argo CD"],
+    tech: ["Express.js", "TypeScript", "React.js", "WebSocket","Redis", "Docker", "Kubernetes", "Helm", "Argo CD", "Premium", "Razorpay"],
     github: "https://github.com/kunal-511/beatwave",
     preview: "https://beatwave-ncb1.onrender.com/",
     thumbnail: "/projects/beatwave.png",
