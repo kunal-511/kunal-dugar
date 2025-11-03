@@ -27,6 +27,15 @@ const blogs: Blog[] = [
     thumbnail: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*M4w5GH48fSRyrBiCuOxoQw.png",
   },
   {
+    title:"From YAML Fatigue to Drag-and-Drop: Reimagining KubeStellar’s Binding Policy UI",
+    description: "How I reimagined the Binding Policy UI of KubeStellar using Drag-and-Drop and a new approach to YAML editing.",
+    date: "2025-11-03",
+    readTime: "6 min read",
+    tags: ["LFX", "Kubernetes", "UI", "Typescript", "Golang", "Full Stack Development"],
+    mediumUrl: "https://medium.com/@kunalD02/from-yaml-fatigue-to-drag-and-drop-reimagining-kubestellars-binding-policy-ui-48a0a89a0184",
+    thumbnail: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GTjkeoIgO_BMNx5CluQoMg.png",
+  },
+  {
     title: "How I Got Selected for GSoC 2025 in Less Than a Month: A Kubeflow Journey",
     description: "How I got selected for Google Summer of Code 2025 in less than a month and my journey with Kubeflow before selection.",
     date: "2025-09-08",
@@ -167,7 +176,6 @@ const Blogs = () => {
           ))}
         </div>
 
-        {/* Follow Me Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -191,9 +199,7 @@ const Blogs = () => {
                 asChild
               >
                 <a href="https://medium.com/@kunalD02" target="_blank" rel="noopener noreferrer">
-                  <svg className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
-                  </svg>
+              <SiMedium className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                   Follow on Medium
                 </a>
               </Button>
