@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Download, ChevronDown } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 import { useEffect, useState } from "react";
 import SplitText from "./SplitText";
@@ -156,9 +156,9 @@ const Hero = () => {
                                 className="border-primary/50 text-foreground hover:bg-primary/10 hover:shadow-hover transition-all duration-300 hover:scale-105"
                                 asChild
                             >
-                                <a href="/Kunal_Dugar_Resume.pdf" download>
-                                    <Download className="mr-2 h-4 w-4" />
-                                    Download Resume
+                                <a href="https://drive.google.com/file/d/1bFWkMJnUGOivSvCuLWGdicZfGiAtn1Y4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <ExternalLink className="mr-2 h-4 w-4" />
+                                    View Resume
                                 </a>
                             </Button>
                         </motion.div>
