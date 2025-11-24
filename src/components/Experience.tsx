@@ -46,7 +46,7 @@ const experiences: ExperienceItem[] = [
     company: "EightGen AI (now juststock.ai)",
     location: "Remote",
     period: "Dec 2024 - Feb 2025",
-    logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHdUlGLLjJrUQ/company-logo_100_100/company-logo_100_100/0/1710413613376/eightgen_logo?e=1762992000&v=beta&t=ZvJ0feKamddemFSiCxpGbt_oS-hLJl1pQI01S46LTGY",
+    logo: "https://media.licdn.com/dms/image/v2/D4E0BAQHdUlGLLjJrUQ/company-logo_200_200/company-logo_200_200/0/1710413613376/eightgen_logo?e=1765411200&v=beta&t=XXVg_MHcJJlreeZKktHQ7zmA7gaN1fAUrS_c0u_qfm8",
     color: "accent",
     responsibilities: [
       "Developed complete frontend architecture for stock analysis web application using React and TypeScript and integrating it with the backend API. Optimized application performance and user experience handling large datasets and complex calculations",
